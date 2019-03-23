@@ -39,22 +39,23 @@ a .home:hover{
 }
 .heading .side_title{
     text-align: center;
-    font-family: "Roboto Slab",serif;
-    font-size:18px;
+    font-family: "Microsoft JhengHei",serif;
+    font-size:14px;
     color:white;
     font-weight:normal;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid grey;
     margin-bottom: 20px;
 }
 .heading .title{
     text-align: center;
-    font-family: "Roboto Slab",serif;
-    font-size:36px;
+    font-family: "Microsoft JhengHei",serif;
+    font-size:45px;
     color:white;
     font-weight:normal;
 }
 .body{
     color:white;
+    line-height: 24px;
 }
 .body .row_1{
     width:100%;
@@ -67,12 +68,12 @@ a .home:hover{
 .body .tree_1{
     margin:auto;
     text-align: center;
-    max-width:40%;
+    max-width:30%;
 }
 .body .tree_2{
     margin:auto;
     text-align:center;
-    max-width:40%;
+    max-width:30%;
 }
 .body .row_2{
     width:100%;
@@ -93,8 +94,9 @@ a .home:hover{
     max-width:40%;
 }
 .source{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
     text-align: center;
+    font-size:12px;
     font-family: "Roboto Slab",serif;
     color:white;
     font-weight:normal;

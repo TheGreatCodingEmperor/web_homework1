@@ -1,3 +1,101 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+body{margin: 0;}
+.all{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, .3)),url("../images/ccu.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+a .home:hover{
+    background-color:orange;
+    border-radius: 40%;
+}
+.source a:link{
+    color:rgb(66,244,233);
+    text-decoration: none;
+}
+.source a:hover{
+    color:rgb(244,66,206);
+    text-decoration: underline;
+}
+.source a:visited{
+    color:rgb(66,244,233);
+}
+.heading{
+    width:100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items:center;
+}
+.heading .home{
+    border-radius: 30%;
+}
+.heading .side_title{
+    text-align: center;
+    font-family: "Roboto Slab",serif;
+    font-size:18px;
+    color:white;
+    font-weight:normal;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+.heading .title{
+    text-align: center;
+    font-family: "Roboto Slab",serif;
+    font-size:36px;
+    color:white;
+    font-weight:normal;
+}
+.body{
+    color:white;
+}
+.body .row_1{
+    width:100%;
+    height: 800px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+}
+.body .tree_1{
+    margin:auto;
+    text-align: center;
+    max-width:40%;
+}
+.body .tree_2{
+    margin:auto;
+    text-align:center;
+    max-width:40%;
+}
+.body .row_2{
+    width:100%;
+    height: 800px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-around;
+    margin-top:40px;
+}
+.body .tree_3{
+    margin:auto;
+    text-align: center;
+    max-width:40%;
+}
+.body .tree_4{
+    margin:auto;
+    text-align:center;
+    max-width:40%;
+}
+.source{
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: "Roboto Slab",serif;
+    color:white;
+    font-weight:normal;
+}

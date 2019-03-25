@@ -67,7 +67,7 @@ span{
 }
 .body .row_1{
     width:100%;
-    height: 800px;
+    height: 100%;
     background-color: rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-around;
@@ -80,7 +80,7 @@ span{
 }
 .body .row_2{
     width:100%;
-    height: 650px;
+    height: 100%;
     background-color: rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-around;

@@ -30,6 +30,9 @@ a .home:hover{
 .source a:visited{
     color:rgb(66,244,233);
 }
+a{
+    margin:20px;
+}
 .heading{
     width:100%;
     height: 100%;
